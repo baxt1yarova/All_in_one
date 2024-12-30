@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    height: 90vh;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.container-objects{
+    display: flex;
+    
+}
+.block{
+    width: 100%;
+}
+img{
+    width: 60vh;
+    height: 400px;
+    object-fit: contain;
+}
+.img-text{
+    font-size: 50px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    font-size: 40px;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(1, 181, 1);
+    border: none;
+    margin-top: 40px;
+}
+.img-number{
+    font-size: 50px;
+    border-bottom: 2px solid green;
+    width: 100%;
+    height: 10vh;
+}
+.iconka{
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.731);
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: -80px;
+}
+
+/*result*/
+.clear{
+    font-size: 40px;
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+    border: none;
+    margin-top: 0;
+    color: white;
+    cursor: pointer;
+}
+.basket{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item{
+    width: 10%;
+    height: 14vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.item p{
+    padding-top: 25px;
+}
+.basket img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.back{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 145px;
+}
+.back:hover{
+    text-decoration: underline;
+}

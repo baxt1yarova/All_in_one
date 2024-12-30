@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider with Animation</title>
+</head>
+<body>
+    <div class="slider">
+        <button id="prev" class="control-btn">prev</button>
+        <div class="main-image">
+            <div class="image-wrapper" id="imageWrapper">
+                <img src="bear.jpg" alt="BROWN BEAR">
+                <img src="bori.jpg" alt="BLACK WOLF">
+                <img src="lion.jpg" alt="YELLOW LION">
+                <img src="tiger.jpg" alt="RED TIGER">
+            </div>
+        </div>
+        <button id="next" class="control-btn">next</button>
+    </div>
+    <div class="thumbnails">
+        <img class="thumbnail active" src="bear.jpg" alt="BROWN BEAR" data-index="0">
+        <img class="thumbnail" src="bori.jpg" alt="BLACK WOLF" data-index="1">
+        <img class="thumbnail" src="lion.jpg" alt="YELLOW LION" data-index="2">
+        <img class="thumbnail" src="tiger.jpg" alt="RED TIGER" data-index="3">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

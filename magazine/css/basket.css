@@ -1,0 +1,51 @@
+.display{
+    padding-top: 7vh;
+    width: 80%;
+    background-color: rgba(220, 220, 220, 0.336);
+    margin: 0 auto;
+}
+.display-list{
+    padding: 10px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.display-list ul{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.display-list img{
+    width: 150px;
+    aspect-ratio: 3/2; 
+    object-fit: contain;
+    padding: 10px;
+}
+.display-list-total{
+    color: red;
+}
+.delete{
+    background-color: black;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.minus-button{
+    background-color: grey;
+    border: none;
+    margin-right: 5px;
+    width: 50px;
+    font-size: 28px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}

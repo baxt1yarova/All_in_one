@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    height: 200px;
+}
+hr{
+    border-color: blue;
+    margin-bottom: 15px;
+}
+.test-display{
+    width: 80%;
+    box-shadow:5px 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    border-radius: 5px;
+}
+.test-numbers{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.test-numbers button{
+    width: 40px;
+    margin: 2px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.test-variant{
+    justify-content: space-between;
+    width: 100%;
+}
+input{
+    width: 25%;
+}
+.test-variant-text{
+    width: 50%;
+}
+.test-setting{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.test-setting-button{
+    border: 1px solid;
+    border-radius: 4px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.prev{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 49%;
+}
+.next{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-right: 5px;
+    width: 49%;
+}
+.finish{
+    margin-left: 5px;
+    background-color: chocolate;
+    width: 100%;
+    border-color: chocolate;
+}

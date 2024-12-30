@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maydon{
+    border: 5px solid red;
+    height: 100vh;
+}
+.car1{
+    width: 150px;
+    transition: 0.1s;
+    position: absolute;
+}
+.car2{
+    width: 120px;
+    transition: 0.1s;
+    position: absolute;
+    margin-top: 150px;
+}

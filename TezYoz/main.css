@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game-display{
+    height: 50vh;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-text{
+    width: 45%;
+    background-color: #777;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.new-text{
+    width: 45%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.keyboards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+}
+
+.row span{
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #555;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.row span:hover{
+    background-color: #999;
+    transform: translateY(-5px);
+}

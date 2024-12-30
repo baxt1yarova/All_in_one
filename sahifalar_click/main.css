@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    width: 60%;
+    height: 35px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: cyan;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: cyan;
+    cursor: pointer;
+    font-size: 20px;
+}

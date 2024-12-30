@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.game-display{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 60vh;
+    margin: 100px auto;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.square{
+    border: 1px solid black;
+    width: 33%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-size: 70px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.square:hover{
+    background-color: #bde0fe;
+}
+button{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    width: 500px;
+    height: 100px;
+}

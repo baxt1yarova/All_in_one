@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin: 50px;
+}
+table{
+    border: 1px solid rgb(100, 100, 100);
+    border-collapse: collapse;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+tr{
+    border: 1px solid rgb(100, 100, 100);
+    color: white;
+}
+td{
+    border: 1px solid rgb(100, 100, 100);
+}
+tr td:first-child{
+    background-color: #4caf50;
+}
+th{
+    border: 1px solid rgb(100, 100, 100);
+    background-color: #4caf50;
+}
+button{
+    margin-top: 25px;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.food{
+    color: black;
+}
