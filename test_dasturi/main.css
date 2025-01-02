@@ -38,6 +38,8 @@ hr{
     cursor: pointer;
 }
 .test-variant{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
@@ -67,6 +69,7 @@ input{
     margin-left: 5px;
     margin-right: 5px;
     width: 49%;
+    cursor: pointer;
 }
 .next{
     background-color: blue;
@@ -74,10 +77,16 @@ input{
     border-color: blue;
     margin-right: 5px;
     width: 49%;
+    cursor: pointer;
 }
 .finish{
     margin-left: 5px;
     background-color: chocolate;
     width: 100%;
     border-color: chocolate;
+    cursor: pointer;
+}
+.variant{
+    width: 50%;
+    cursor: pointer;
 }

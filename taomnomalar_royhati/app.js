@@ -53,12 +53,7 @@ generate.onclick=()=>{
         taomlar[rand2]=t
     }
 
-    //2-usul
     for(let i=0;i<=41;i++){
         food[i].textContent=taomlar[i]
     }
-    //1-usul
-    //food.forEach((item,index)=>{
-    //item.textContent=taomlar[index]
-    //})
 }

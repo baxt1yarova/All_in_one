@@ -58,10 +58,10 @@ button.next{
     height: 100px;
     object-fit: cover;
     border: 2px solid transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: border-color 0.3s;
     position: absolute;
     top: 80%;
     transform: translateY(-50%);
+    transition: transform 0.5s ease-in-out;
 }

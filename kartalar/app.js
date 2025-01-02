@@ -59,7 +59,7 @@ cards.forEach((item,index)=>{
             else{
                 secondCard=item
             }
-        },200)
+        },100)
         
         setTimeout(()=>{
             if(firstCard!=null && secondCard!=null){

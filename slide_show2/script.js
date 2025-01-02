@@ -42,6 +42,8 @@ function updateLargeImage(index, direction) {
         tempImage.remove()
     })
 }
+nextButton.addEventListener('click', showNextImage)
+prevButton.addEventListener('click', showPrevImage)
 
 function showNextImage() {
     let nextIndex = (currentIndex + 1) % images.length
@@ -54,9 +56,6 @@ function showPrevImage() {
     updateLargeImage(prevIndex, 'prev')
     currentIndex = prevIndex
 }
-
-nextButton.addEventListener('click', showNextImage)
-prevButton.addEventListener('click', showPrevImage)
 
 thumbnails.forEach((thumbnail, index) => {
     thumbnail.addEventListener('click', () => {

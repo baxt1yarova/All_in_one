@@ -39,7 +39,7 @@ ul{
     font-size: 25px;
     background-color: rgba(127, 255, 212, 0.164);
 }
-.list-products button{
+.list-products .ochirish{
     background-color: red;
     border-radius: 10px;
     border-color: red;
