@@ -49,7 +49,6 @@ let secondCard=null
 cards.forEach((item,index)=>{
     item.onclick=()=>{
         k++
-        
         item.style.transform='rotateY(180deg)'
         setTimeout(function(){
             item.src='img/'+kartalar[index]
@@ -59,7 +58,7 @@ cards.forEach((item,index)=>{
             else{
                 secondCard=item
             }
-        },100)
+        },300)
         
         setTimeout(()=>{
             if(firstCard!=null && secondCard!=null){
@@ -76,6 +75,6 @@ cards.forEach((item,index)=>{
                     secondCard=null
                 }
             }
-        },500)
+        },1200)
     }
 })

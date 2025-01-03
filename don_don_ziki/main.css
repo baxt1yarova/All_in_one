@@ -76,7 +76,7 @@ button{
     width: 30%;
     background-color: blue;
     height: 357px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 
@@ -87,7 +87,7 @@ button{
     background-color: red;
     height: 357px;
     margin-left: 30%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
